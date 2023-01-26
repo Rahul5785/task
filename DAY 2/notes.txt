@@ -1,0 +1,8 @@
+1.WINDOW VS DOCUMENT OBJECT
+
+  Windows object represents a window(tab) containing objects is property of windows 
+  object that points to the DOM document loaded in that window.
+
+  Window objects is top most hierarchy and in document object HTML 
+  document that located into windows become document object contains
+  content of the pages.
