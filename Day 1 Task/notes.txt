@@ -1,0 +1,42 @@
+1.HPPT1.1 vs HPPT 2
+
+   HTTP_HYPERTEXT TRANSFER protocal, is basics for all method  of computer 
+   and server get request and send information to clients. the first usable
+   version of HTTP was created in 1997 called HTTP1.1 .it is still in use 
+   of web. in 2015, a new version of HTTP callEd HTTP2 was created. 
+
+   HTTP 2 solves several problems that created in HTTP1.1 . HTTP2 is much faster 
+   than HTTP1.1. HTTP1.1 loads a single request for every TCP connections, while 
+   HTTP 2 aviod network delay by multiplexing(mulitiple stream of data at once.)
+
+   HTTP 1.1 introduces a warning header field to carry additional information about 
+   status of a message that defines 24 staus code error reporting id quciker and efficent 
+   HTTP 2 underlying semantics of HTTP suc as header status code remains same.
+    
+    server push-server only servers content if client will ask of it. if the client
+    will request several dozens of content it will not possible. to over come this 
+    problem in HTTP 2 by allowing server to 'push' the content to clients before 
+    they ask.
+
+    Header compression small files load more qucikly than larger one. for that both 
+    HTTP1.1 & HTTP 2 compress HTTP messade to smaller.HTTP 2 use advance method redundant 
+    information in HTTP header packet.  
+
+
+    2. OBJECT AND ITS INTERNAL REPRESENTATION
+
+       objects are important data types in javascript.objects are different than primitive
+       data type primitive data type contain one data type value but object contais many
+       value in form of Key:Value pair. these keys can be variable or function amd has some 
+       values associated with propertie.
+
+       EX 
+
+           var a={
+                  name:"vijay"
+                  age:"48"
+                  year:"1974"
+           };
+
+           Here name,age,and year keys and vijay, 48, 1974 are the values of key .Each
+           of the key represented as properties.
