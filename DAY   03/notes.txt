@@ -1,0 +1,14 @@
+Windows 
+
+    The Windows interface represents a windows containing a DOM document , the  document  property
+    points to the DOM document loaded in that windows. A windows for a given document . defaultview
+    property.
+     
+     A Global variable, windows , represting the windows in which the script is running is exposed to javaScript code
+
+ Document
+
+     The dOCUMENT interface represents any web page loaded in the browser amd serves
+     as an entry into the web page's content, which is the DOM tree. the DOM tree inculde 
+     elements such as <body> and <table> , among many other \. IT provides Functionally globally
+     to the document like how to obtain the pages URL and creat new elements in the document
